@@ -17,7 +17,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <h2>Nav Items</h2>
+        <div>
+          <div className="flex justify-center items-center p-3 font-medium bg-sky-500 ">
+            <ul className="flex justify-center items-center gap-10">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Blog</a>
+              <a href="#">Contact</a>
+            </ul>
+          </div>
+        </div>
         {children}
       </body>
     </html>

@@ -1,5 +1,7 @@
 export default function Home() {
   return (
-    <h1 className="text-2xl text-center">Hello jee Kaise hai app</h1>
+    <div className="w-full h-screen ">
+        <h1 className="text-2xl flex justify-center items-center mt-10">Hello Jee Home page hai</h1>
+    </div>
   );
 }
