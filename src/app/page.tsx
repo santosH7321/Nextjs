@@ -1,6 +1,8 @@
+import CardHoverEffect from "@/components/CardHoverEffect";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
 import MovingCards from "@/components/MovingCards";
+import WaveBackground from "@/components/WaveBackground";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
@@ -10,6 +12,8 @@ export default function Home() {
         <FeaturedCourses />
         <WhyChooseUs />
         <MovingCards />
+        <CardHoverEffect />
+        <WaveBackground />
     </main>
   );
 }
