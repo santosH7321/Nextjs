@@ -42,7 +42,7 @@ export const projects = [
 
 const CardHoverEffect = () => {
   return (
-    <div className="max-w-5xl mx-auto px-8 ">
+    <div className="max-w-5xl mx-auto px-8 overflow-hidden">
       <HoverEffect items={projects} />
     </div>
   )
