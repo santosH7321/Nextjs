@@ -1,4 +1,4 @@
-import CardHoverEffect from "@/components/CardHoverEffect";
+import CardHoverEffect from "@/components/UpcomingWebinars";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";

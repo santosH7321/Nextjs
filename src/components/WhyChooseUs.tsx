@@ -4,24 +4,34 @@ import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
 const content = [
     {
-      title: "Collaborative Editing",
+      title: " Welcome to our GECJ Coding Club!",
       description:
-        "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+        "Are you passionate about coding and eager to learn in a fun and supportive environment? Look no further! Our Collaborative Coding Club is the perfect place for enthusiasts of all skill levels to come together, collaborate, and build amazing projects.",
     },
     {
-      title: "Real time changes",
+      title: "🌟 Where Vision Meets Innovation! 🌟",
       description:
-        "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+        "At our coding club, we envision a future where every member has the opportunity to unleash their creativity, drive innovation, and make a meaningful impact through the power of coding.",
     },
     {
-      title: "Version control",
+      title: "Skill Development",
       description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+        "Whether you're a beginner or an experienced coder, there's always something new to learn. Through workshops, coding challenges, and peer-to-peer mentoring, we strive to help each other grow and develop our skills.",
     },
     {
-      title: "Running out of content",
+      title: "Knowledge Sharing",
       description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+        "Sharing is caring! We foster a culture of knowledge exchange where members can share their expertise, insights, and tips with one another, enriching everyone's learning experience.",
+    },
+    {
+      title: "Community Engagement",
+      description:
+        "Beyond coding, we're a vibrant community that values inclusivity, diversity, and camaraderie. We organize social events, hackathons, and tech talks to connect with like-minded individuals and expand our network.",
+    },
+    {
+      title: "Building a Better Future",
+      description:
+        "Technology has the potential to solve some of the world's most pressing challenges, from climate change and healthcare to education and social justice. Our vision is to harness the power of coding to drive positive change and create a better future for all.",
     },
   ];
 

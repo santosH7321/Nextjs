@@ -2,103 +2,53 @@
     "courses": [
       {
         "id": 1,
-        "title": "Expert In Generative AI",
-        "slug": "guitar-fundamentals",
-        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "title": "Web Development for beginer",
+        "slug": "webdev",
+        "description": "Are you eager to dive into the world of web development but don't know where to start? Our Introduction to Web Development for Beginners classes are designed just for you! Whether you're a complete novice or have dabbled a bit in coding, this course will equip you with the fundamental skills and knowledge needed to build your own websites from scratch.",
         "price": 99.99,
-        "instructor": "John Doe",
-        "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
+        "instructor": "Santosh Kumar",
+        "isFeatured": true
       },
+      
       {
         "id": 2,
-        "title": "Web Development for beginer",
-        "slug": "piano-for-beginners",
-        "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
-        "price": 109.99,
-        "instructor": "Jane Smith",
-        "isFeatured": false,
-        "image": "/courses/piano.jpg" 
-      },
-      {
-        "id": 3,
         "title": "Data Science Mastry",
-        "slug": "advanced-vocal-techniques",
-        "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
+        "slug": "datascience",
+        "description": "Are you ready to unlock the power of data and unleash your potential as a data scientist? Our Mastering Data Science class is tailored for individuals eager to delve deep into the world of data analysis, machine learning, and predictive modeling. Whether you're a beginner or have some experience in data science, this comprehensive course will equip you with the knowledge and skills needed to tackle real-world data challenges with confidence.",
         "price": 119.99,
-        "instructor": "Emily Johnson",
-        "isFeatured": true,
-        "image": "/courses/vocalist.jpg" 
+        "instructor": "Santosh Kumar",
+        "isFeatured": true
       },
-      {
-        "id": 4,
-        "title": "Data Structure And Algoritham",
-        "slug": "drumming-mastery",
-        "description": "Master the drums with our comprehensive course covering all skill levels.",
-        "price": 129.99,
-        "instructor": "Mike Brown",
-        "isFeatured": false,
-        "image": "/courses/drumming.jpg"
-      },
-      {
-        "id": 5,
-        "title": "Web Development for beginer",
-        "slug": "jazz-improvisation",
-        "description": "Learn the art of jazz improvisation with this course designed for all levels.",
-        "price": 139.99,
-        "instructor": "Chris Davis",
-        "isFeatured": false,
-        "image": "/courses/jazz.jpg"
-      },
+      
+      
       {
         "id": 6,
         "title": "Machine Learning Expert",
-        "slug": "music-production-fundamentals",
-        "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
+        "slug": "machinelearning",
+        "description": "Elevate your expertise in Machine Learning with our advanced Machine Learning Expert Class. Designed for seasoned data scientists and professionals, this comprehensive course delves deep into the intricacies of machine learning algorithms, techniques, and applications, empowering you to become a proficient machine learning practitioner and innovator.",
         "price": 149.99,
-        "instructor": "Alex Wilson",
-        "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "instructor": "Santosh Kumar",
+        "isFeatured": true
       },
-      {
-        "id": 7,
-        "title": "Songwriting Essentials",
-        "slug": "songwriting-essentials",
-        "description": "Learn the essentials of songwriting to express your musical creativity.",
-        "price": 159.99,
-        "instructor": "Samantha Miller",
-        "isFeatured": false,
-        "image": "/courses/song-writing.jpg"
-      },
+      
       {
         "id": 8,
         "title": "Data Structure And Algoritham",
-        "slug": "electronic-music-production",
-        "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
+        "slug": "dsa",
+        "description": "Unlock the power of efficient problem-solving with our Data Structures and Algorithms Class. This course is tailored for aspiring software engineers, computer science students, and coding enthusiasts who want to master the fundamentals of data structures and algorithms, essential for building robust and scalable software solutions.",
         "price": 169.99,
-        "instructor": "Luke Harris",
-        "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "instructor": "Santosh Kumar",
+        "isFeatured": true
       },
-      {
-        "id": 9,
-        "title": "Classical Music History",
-        "slug": "classical-music-history",
-        "description": "Explore the rich history of classical music from its origins to the present day.",
-        "price": 179.99,
-        "instructor": "Grace Lee",
-        "isFeatured": false,
-        "image": "/courses/classical-music.jpg"
-      },
+      
       {
         "id": 10,
         "title": "Blog Chain Development",
-        "slug": "blues-guitar-techniques",
-        "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
+        "slug": "blogchain",
+        "description": "Ready to delve into the exciting world of blockchain technology? Join our Blog Chain Development Class, where you'll learn how to build decentralized applications (DApps) and explore the potential of blockchain for revolutionizing various industries. Whether you're a developer, entrepreneur, or blockchain enthusiast, this course will equip you with the knowledge and skills to harness the power of blockchain technology.",
         "price": 189.99,
-        "instructor": "Ethan Moore",
-        "isFeatured": true,
-        "image": "/courses/blues.jpg"
+        "instructor": "Santosh Kumar",
+        "isFeatured": true
       }
     ]
   }

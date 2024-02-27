@@ -36,7 +36,7 @@ const FeaturedCourses = () => {
                         >
                             <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
                             <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
-                            <Link href={`/courses/${course.slug}`}>
+                            <Link href={`/courses/${course.slug}`} className="p-2 px-6 bg-sky-500 rounded">
                                 Learn More
                             </Link>
                         </div>

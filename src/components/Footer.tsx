@@ -7,9 +7,7 @@ function Footer() {
           <div>
             <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
             <p className="mb-4">
-              Music School is a premier institution dedicated to teaching the art
-              and science of music. We nurture talent from the ground up,
-              fostering a vibrant community of musicians.
+            Embark on your coding journey with GEC Jamui Coding Club and unlock the endless possibilities of technology. Whether you're dreaming of building the next big app, launching a startup, or simply mastering the art of coding, we're here to support you every step of the way. Join us today and let's code together!
             </p>
           </div>
           <div>
@@ -88,7 +86,7 @@ function Footer() {
             <p>Phone: (+91) 9835212815</p>
           </div>
           </div>
-          <p className="text-center text-xs pt-8">© 2024 GEC Coding Club. All rights reserved.</p>
+          <p className="text-center text-xs pt-8">© 2024 GEC Jamui Coding Club. All rights reserved.</p>
       </footer>
     )
   }
