@@ -3,8 +3,8 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import MovingCards from "@/components/MovingCards";
-import WaveBackground from "@/components/WaveBackground";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import Instructors from "@/components/Instructor";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         <WhyChooseUs />
         <MovingCards />
         <CardHoverEffect />
-        <WaveBackground />
+        <Instructors />
         <Footer />
     </main>
   );
