@@ -1,5 +1,6 @@
 import CardHoverEffect from "@/components/CardHoverEffect";
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import MovingCards from "@/components/MovingCards";
 import WaveBackground from "@/components/WaveBackground";
@@ -14,6 +15,7 @@ export default function Home() {
         <MovingCards />
         <CardHoverEffect />
         <WaveBackground />
+        <Footer />
     </main>
   );
 }
