@@ -8,7 +8,7 @@ function Footer() {
           <div>
             <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
             <p className="mb-4">
-            Embark on your coding journey with GEC Jamui Coding Club and unlock the endless possibilities of technology. Whether you're dreaming of building the next big app, launching a startup, or simply mastering the art of coding, we're here to support you every step of the way. Join us today and let's code together!
+            Embark on your coding journey with GEC Jamui Coding Club and unlock the endless possibilities of technology. Whether you are dreaming of building the next big app, launching a startup, or simply mastering the art of coding, we are here to support you every step of the way. Join us today and lets code together!
             </p>
           </div>
           <div>
