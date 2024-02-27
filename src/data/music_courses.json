@@ -7,7 +7,8 @@
         "description": "Are you eager to dive into the world of web development but don't know where to start? Our Introduction to Web Development for Beginners classes are designed just for you! Whether you're a complete novice or have dabbled a bit in coding, this course will equip you with the fundamental skills and knowledge needed to build your own websites from scratch.",
         "price": 99.99,
         "instructor": "Santosh Kumar",
-        "isFeatured": true
+        "isFeatured": true,
+        "image": "" 
       },
       
       {

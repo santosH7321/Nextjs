@@ -31,7 +31,7 @@ function CodingContact() {
           programs, or events. Reach out and let us know how we can assist you
           in your coding journey.
         </p>
-        <form onSubmit={handleSubmit} className="space-y-4 mt-4">
+        <form onSubmit={handleSubmit} className="space-y-4 mt-4 text-white">
           <input
             type="name"
             value={name}
