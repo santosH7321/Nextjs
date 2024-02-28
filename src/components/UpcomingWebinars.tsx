@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link"
 import { HoverEffect } from "./ui/card-hover-effect";
-import { SparklesCore } from "./ui/sparkles";
+
 
 function UpcomingWebinars() {
 
@@ -71,15 +71,7 @@ function UpcomingWebinars() {
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">SENIOR TIPS TO GROW IN CONDING</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Step To Master In Coding Journey</p>
         </div>
-        <SparklesCore 
-      id="tsparticlesfullpage"
-      background="transparent"
-      minSize={0.9}
-      maxSize={1.8}
-      particleDensity={100}
-      className="w-full min-h-full"
-      particleColor="#FFFFFF"
-      />
+        
         <div className="mt-10">
           <HoverEffect
           items={featuredWebinars.map(webinar => (

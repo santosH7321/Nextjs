@@ -2,6 +2,7 @@
 import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
+
 const content = [
     {
       title: " Welcome to our GECJ Coding Club!",
@@ -38,6 +39,7 @@ const content = [
 const WhyChooseUs = () => {
   return (
     <div>
+      
       <StickyScroll content={content} />
     </div>
   )
