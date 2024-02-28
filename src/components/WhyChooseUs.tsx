@@ -10,7 +10,7 @@ const content = [
         "Are you passionate about coding and eager to learn in a fun and supportive environment? Look no further! Our Collaborative Coding Club is the perfect place for enthusiasts of all skill levels to come together, collaborate, and build amazing projects.",
     },
     {
-      title: "🌟 Where Vision Meets Innovation! 🌟",
+      title: "Where Vision Meets Innovation!",
       description:
         "At our coding club, we envision a future where every member has the opportunity to unleash their creativity, drive innovation, and make a meaningful impact through the power of coding.",
     },
@@ -39,7 +39,6 @@ const content = [
 const WhyChooseUs = () => {
   return (
     <div>
-      
       <StickyScroll content={content} />
     </div>
   )
