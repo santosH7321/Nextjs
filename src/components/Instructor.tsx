@@ -26,6 +26,13 @@ const instructors = [
     },
     {
       id: 4,
+      name: 'Anu Priya',
+      designation: 'Douth Solver',
+      image:
+        'https://images.pexels.com/photos/20434545/pexels-photo-20434545.png?auto=compress&cs=tinysrgb&w=600&lazy=load',
+    },
+    {
+      id: 5,
       name: 'Shritosh Sir',
       designation: 'HOD CSE',
       image:
