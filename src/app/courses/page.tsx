@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import courseData from "@/data/music_courses.json";
+import Link from "next/link";
 
 function Page() {
   return (
@@ -30,7 +31,7 @@ function Page() {
                   Try now →
                 </CardItem>
                 <CardItem translateZ={20} as="button" className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold">
-                  Sign up
+                  <Link href={'/signup'}>Sign up</Link>
                 </CardItem>
               </div>
             </CardBody>
