@@ -64,8 +64,8 @@ function UpcomingWebinars() {
   ];
 
   return (
+    <div>
     <div className="p-12 ">
-      
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">SENIOR TIPS TO GROW IN CONDING</h2>
@@ -92,6 +92,7 @@ function UpcomingWebinars() {
           </Link>
         </div>
       </div>
+    </div>
     </div>
   )
 }

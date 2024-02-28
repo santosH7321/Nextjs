@@ -3,6 +3,7 @@ import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import courseData from "@/data/music_courses.json";
 import Link from "next/link";
 
+
 function Page() {
   return (
     <div className="min-h-screen bg-black py-12 pt-36">
