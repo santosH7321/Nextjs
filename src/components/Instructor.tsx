@@ -24,14 +24,14 @@ const instructors = [
     {
       id: 3,
       name: 'Sanjeev Kumar',
-      designation: 'Problem Solver',
+      designation: 'Douth Solver',
       image:
         'https://images.pexels.com/photos/20425179/pexels-photo-20425179.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
     },
     {
       id: 4,
       name: 'Anu Priya',
-      designation: 'Problem Solver',
+      designation: 'Douth Solver',
       image:
         'https://images.pexels.com/photos/20434545/pexels-photo-20434545.png?auto=compress&cs=tinysrgb&w=600&lazy=load',
     },
@@ -44,20 +44,18 @@ const instructors = [
     },
   ];
 
-function Instructors() {
-  return (
-    <div className="relative h-[40rem] overflow-hidden flex items-center justify-center">
-        <WavyBackground className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center h-full">
-            <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8">Meet Our Instructors</h2>
-            <p className="text-base md:text-lg text-white text-center mb-4">Discover the talented professionals who will guide your Coding journey</p>
-            <span className="flex flex-row items-center justify-center mb-10 pt-2 p-3 pr-12 pl-9 bg-gray-400 rounded-3xl">
-                <AnimatedTooltip items={instructors} />
-            </span>
-
-            <MadeBy />
-        </WavyBackground>
-    </div>
-  )
-}
-
-export default Instructors
+  function Instructors() {
+    return (
+      <div className="relative h-[40rem] overflow-hidden flex items-center justify-center">
+          <WavyBackground className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center h-full">
+              <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8">Meet Our Instructors</h2>
+              <p className="text-base md:text-lg text-white text-center mb-4">Discover the talented professionals who will guide your Coding journey</p>
+              <div className="flex flex-row items-center justify-center mb-10 p-3 pr-12 pl-9 bg-slate-400 rounded-3xl max-md:w-full">
+                  <AnimatedTooltip items={instructors} />
+              </div>
+          </WavyBackground>
+      </div>
+    )
+  }
+  
+  export default Instructors
